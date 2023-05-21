@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "alura-golang",
+    "dateExported": "2023-05-21T03:54:30.710Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5e5f2cd2-312f-4fbc-952a-761a25cd2b02",
+            "colId": "85e8b764-891d-4ded-a8fb-b1b32cae32d3",
+            "containerId": "",
+            "name": "getByName",
+            "url": "http://localhost:8000/api/v1/skills/javascript",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-20T23:48:08.182Z",
+            "modified": "2023-05-21T03:53:05.353Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e7589598-7a06-4ff6-a87b-9eea4868600e",
+            "colId": "85e8b764-891d-4ded-a8fb-b1b32cae32d3",
+            "containerId": "",
+            "name": "list",
+            "url": "http://localhost:8000/api/v1/skills",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-20T23:48:18.432Z",
+            "modified": "2023-05-20T23:48:18.432Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "df0a11b8-2ee7-48fc-a98f-a99ae492288e",
+            "colId": "85e8b764-891d-4ded-a8fb-b1b32cae32d3",
+            "containerId": "",
+            "name": "create",
+            "url": "http://localhost:8000/api/v1/skills",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-21T03:14:39.793Z",
+            "modified": "2023-05-21T03:14:39.793Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"javascript\",\n  \"description\": \"Masterize javascript programming language\",\n  \"group\": \"programming\",\n  \"category\": \"language\",\n  \"purpose\": \"general\",\n  \"priority\": 1,\n  \"level\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "15910e86-a937-4ba3-9892-a6c1cb9bd22f",
+            "colId": "85e8b764-891d-4ded-a8fb-b1b32cae32d3",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:8000/api/v1/skills/javascript",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-05-21T03:28:37.769Z",
+            "modified": "2023-05-21T03:54:05.262Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "066c5d88-0d58-4093-8a58-483e09aa2c76",
+            "colId": "85e8b764-891d-4ded-a8fb-b1b32cae32d3",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:8000/api/v1/skills/javascript",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-05-21T03:53:18.524Z",
+            "modified": "2023-05-21T03:53:33.080Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"category\": \"lang\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
